@@ -1,0 +1,55 @@
+li{
+    margin-left: 1rem;
+    list-style: none;
+    font-size: larger;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.heading{
+    text-align: center;
+}
+.detail-image{
+    margin:0 35%;
+}
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    padding: 0;
+    margin: 0;
+}
+.book{
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+    width: 320px;
+    border: 2px solid rgb(71, 70, 70);
+    text-align: center;
+}
+.book:hover {
+    transform: scale(1.07);
+  }
+input{
+    display: block;
+    margin-bottom: 1%;
+    width:20%;
+    height:5vh;
+}
+textarea{
+    margin: 1% 0;
+    display: block;
+}
+
+.inp-search{
+    display: inline-block;
+    margin-left: 10%;
+}
+.category{
+    margin-left: 40%;
+    width:20%;
+    height:5vh;
+}
