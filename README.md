@@ -39,7 +39,7 @@ Before running the application, make sure you have the following installed on yo
 
 2. Navigate to the project directory:
 
-cd online-library-system
+cd vite-project
 
 3. Install dependencies:
 
